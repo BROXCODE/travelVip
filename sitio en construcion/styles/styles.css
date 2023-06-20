@@ -1,0 +1,72 @@
+body {
+    background-image: url("../img/travel4.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    text-align: center;
+    margin-left: 0px;
+    padding: 20px;
+    max-width: 1100px;
+ 
+  }
+
+  .containerShadow {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5); /* Aplica un efecto de sombra */
+  }
+
+  .logo {
+    width: 350px;
+    margin-bottom: 30px;
+  }
+  .mintur{
+    width: 200px;
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .message {
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+
+  .countdown {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+
+  .social-icons {
+    margin-top: 30px;
+  }
+
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons a:hover {
+    color: #1c2c5f;
+  }
