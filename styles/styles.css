@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/travel4.jpg");
+    background-image: url("../img/travel4.webp");
     background-size: cover;
     background-position: center;
     font-family: Arial, sans-serif;
@@ -21,11 +21,10 @@ body {
 
   .containerShadow {
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
     /* border-top-right-radius: 10px;
     border-bottom-right-radius: 10px; */
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5); /* Aplica un efecto de sombra */
   }
 
   .logo {
@@ -46,8 +45,23 @@ body {
 
   .message {
     font-size: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 2rem;
     color: #fff;
+  }
+
+  .regulated {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .uy-natural {
+    height: 5rem;
+  }
+
+  .qr-code {
+    height: 5rem;
   }
 
   .countdown {
