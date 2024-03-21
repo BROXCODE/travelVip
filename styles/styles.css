@@ -27,10 +27,22 @@ body {
     border-radius: 10px;
   }
 
-  .logo {
+  #logo_1 {
     width: 350px;
     margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
   }
+
+  @media only screen and (min-width: 501px) {
+    #logo_1{
+      display: block;
+    }
+    #logo_2{
+      display: none;
+    }
+  }
+
   .mintur{
     width: 200px;
     margin-bottom: 30px;
@@ -85,7 +97,39 @@ body {
     color: #1c2c5f;
   }
 
-  @media only screen and (max-width: 500px) {
+
+  @media only screen and (max-width: 365px) {
+    .regulated {
+      flex-direction: column;
+    }
+
+    .uy-natural {
+      height: 4rem;
+      margin: auto;
+    }
+
+    #logo_1{
+      display: none;
+    }
+    #logo_2{
+      display: block;
+    }
+
+    .qr-code {
+      height: 4.5rem;
+      margin: auto;
+    }
+
+    #logo_2 {
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 250px;
+    }
+  }
+
+  @media only screen and (min-width: 366px) and (max-width: 500px) {
     .regulated {
       flex-direction: column;
     }
@@ -97,5 +141,21 @@ body {
     .qr-code {
       height: 4.5rem;
       margin: auto;
+    }
+
+    #logo_1{
+      display: none;
+    }
+
+    #logo_2{
+      display: block;
+    }
+
+    #logo_2 {
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 295px;
     }
   }
