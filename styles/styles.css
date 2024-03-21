@@ -84,3 +84,18 @@ body {
   .social-icons a:hover {
     color: #1c2c5f;
   }
+
+  @media only screen and (max-width: 500px) {
+    .regulated {
+      flex-direction: column;
+    }
+    .uy-natural {
+      height: 4.5rem;
+      margin: auto;
+    }
+  
+    .qr-code {
+      height: 4.5rem;
+      margin: auto;
+    }
+  }
